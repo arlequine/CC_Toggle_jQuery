@@ -1,0 +1,97 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*.barra_vertical*/ nav{
+	display: block;
+    background-color: #BDBDBD;
+    float: left;
+    margin-left: -10px;
+    position: fixed;
+    top: -16px;
+    height: 634px;
+    padding-top: 20px;
+    width: 198px;
+    left: -152px;
+
+
+}
+
+.barra_vertical{
+	list-style-type: none;
+    padding-left: 6px;
+   
+
+}
+
+.barra_vertical a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: left;
+}
+
+.content{
+    margin: 0 auto;
+    width: 1037px;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+header{
+    margin: 0 auto;
+    width: 1037px;
+    position: absolute;
+    left: 170px;
+}
+
+.footer{
+	position: absolute;
+    left: 60px;
+    top: 2250px;
+}
+.buzz{
+	top: 10px;
+}
+
+hr{
+	background-color: #000000;
+	height: 2px;
+    width: 129px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.inicio:hover {
+	background-color: #013ADF;
+	transition: background-color 1s;
+}
+
+.que_hacemos:hover {
+	background-color: #013ADF;
+	transition: background-color 1s;
+}
+.pricing:hover {
+	background-color: #013ADF;
+	transition: background-color 1s;
+}
+.about:hover {
+	background-color: #013ADF;
+	transition: background-color 1s;
+}
+.contact:hover {
+	background-color: #013ADF;
+	transition: background-color 1s;
+}
+
+.logo{
+    float: right;
+    margin: 0 auto;
+    width: 35px;
+}
+
+.clear{
+    clear: both;
+}
